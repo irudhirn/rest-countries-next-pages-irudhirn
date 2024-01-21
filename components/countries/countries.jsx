@@ -1,8 +1,8 @@
 import React, {Suspense} from "react";
 import Head from "next/head";
-import Header from "../header/Header";
-import Country from "./Country";
-import classes from "./Countries.module.css";
+import Header from "../header/header";
+import Country from "./country";
+import classes from "./countries.module.css";
 
 const Countries = ({ region, countries }) => {
   

@@ -5,7 +5,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleDarkMode } from "@/redux/reducers/darkMode";
 
-import classes from "./Nav.module.css";
+import classes from "./nav.module.css";
 import Link from "next/link";
 
 const Nav = () => {
