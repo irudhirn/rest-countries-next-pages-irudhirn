@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 
-import classes from "./Country.module.css";
+import classes from "./country.module.css";
 
 const Country = ({ country }) => {
   const isDark = useSelector((state) => state.theme.isDark);
